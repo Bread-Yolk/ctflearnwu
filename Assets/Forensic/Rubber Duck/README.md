@@ -10,5 +10,17 @@ Find the flag! Simple forensics challenge to get started with.
 
 ## STEPS:
 1. First, download the file given.
-2. 
+2. Let's try to combine **strings** and **grep**.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/193027690-c1ac0222-4ac4-491a-b747-e7e8321a7591.png)
+
+3. Got the flag!
+
+## FLAG
+
+```
+CTFlearn{ILoveJakarta}
+```
 
