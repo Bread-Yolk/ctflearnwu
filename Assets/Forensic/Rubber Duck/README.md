@@ -3,11 +3,12 @@
 ## DESCRIPTION:
 Find the flag! Simple forensics challenge to get started with.
 
-[FILE](https://ctflearn.com/challenge/download/933)
+
 
 ## HINT:
 - NONE
 
 ## STEPS:
 1. First, download the file given.
-2. 
+
+
