@@ -34,3 +34,24 @@ The flag used to be there. But then I redacted it. Good Luck. https://mega.nz/#!
 ![image](https://user-images.githubusercontent.com/70703371/193023370-a2afef21-64dd-49f6-b757-1d2936525310.png)
 
 
+9. Now run `git show`.
+
+> OUTPUT
+
+![image](https://user-images.githubusercontent.com/70703371/193025780-d4202f0a-e391-49d1-a0e9-8dbdf6accd86.png)
+
+
+10. We got the flag!
+
+## FLAG
+
+```
+CTFlearn{protect_your_git}
+```
+
+## LEARNING REFERENCES:
+
+```
+https://dzone.com/articles/top-20-git-commands-with-examples
+https://git-scm.com/docs/git-show
+```
