@@ -9,4 +9,18 @@ Pay attention to those strings!
 - NONE
 ## STEPS:
 1. First, download the file given.
-2. 
+2. Next, combine the **strings** with **grep**.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/193037199-3ce6407b-c600-487f-a1c8-2f873962e503.png)
+
+3. Since we got many flags, based from the description, the correct flag is with the right prefix.
+4. Hence i submit the **Gandalf** one.
+5. Turns out we got the correct flag.
+
+## FLAG
+
+```
+CTFlearn{Gandalf}
+```
