@@ -25,4 +25,12 @@ The flag used to be there. But then I redacted it. Good Luck. https://mega.nz/#!
 
 
 6. Hmm.. Redacted.
-7. 
+7. Let's check, are there any hidden file or folder, because based from the log, we can see there's a `git` folder but we didn't see it.
+
+![image](https://user-images.githubusercontent.com/70703371/193023318-44c10c36-6f0c-41b4-a8ef-9491b31d537c.png)
+
+8. Let's jump to `.git`.
+
+![image](https://user-images.githubusercontent.com/70703371/193023370-a2afef21-64dd-49f6-b757-1d2936525310.png)
+
+
