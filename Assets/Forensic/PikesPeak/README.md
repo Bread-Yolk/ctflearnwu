@@ -3,7 +3,7 @@
 ## DESCRIPTION:
 Pay attention to those strings!
 
-[FILE]()
+[FILE](https://github.com/Bread-Yolk/ctflearnwu/blob/958565617eb81e706b077945e768206c8af0bd90/Assets/Forensic/PikesPeak/PikesPeak.jpg)
 
 ## HINT:
 - NONE
