@@ -24,4 +24,22 @@ The keyword is hexadecimal, and removing an useless H.E.H.U.H.E. from the flag. 
 
 
 5. Surprisingly, we got nothing.
-6.
+6. Let's strings it.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/193035406-61b13242-dba6-4bf5-ada0-b35153de94e2.png)
+
+
+7. I think there's a flag.
+
+![image](https://user-images.githubusercontent.com/70703371/193035511-59f6f61f-f184-447b-b52e-2b743ab67f71.png)
+
+8. Remove the H characters.
+9. We got the flag!
+
+## FLAG
+
+```
+CTFlearn{fl4ggyfl4g}
+```
