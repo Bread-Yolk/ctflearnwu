@@ -95,4 +95,29 @@ c4 3e a4 7c ed 94 ac 4e 52 9c b4 3a 5a 01 12 2b 89 2f 0f f6 3f ac 32 4f 5c d5 38
 4354466c6561726e7b47616e64616c662e42696c626f42616767696e737d
 ```
 
-20. 
+20. For this solution i made simple python script to convert it.
+
+```py
+import os
+
+os.system("clear")
+
+strings = "4354466c6561726e7b47616e64616c662e42696c626f42616767696e737d"
+result = bytearray.fromhex(strings)
+fin = result.decode()
+print(fin)
+```
+
+> OUTPUT
+
+![image](https://user-images.githubusercontent.com/70703371/193189197-2bb95318-4561-4afb-8b53-a89c9c801e01.png)
+
+
+21. Finally, we got the flag!
+
+
+## FLAG
+
+```
+CTFlearn{Gandalf.BilboBaggins}
+```
