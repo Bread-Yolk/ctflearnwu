@@ -60,15 +60,21 @@ https://mega.nz/file/1UBViYgD#kjKISs9pUB4E-1d79166FeX3TiY5VQcHJ_GrcMbaLhg Can yo
 12. Hmm.. They still gave us the base64 text.
 13. Let's do it again.
 
+![image](https://user-images.githubusercontent.com/70703371/193275439-47977480-7b6c-44ba-944c-a413d4daee9b.png)
 
 
-10. Got the flag!
+14. Do it again.
+
+![image](https://user-images.githubusercontent.com/70703371/193275533-70c20558-45fc-4aa5-8e45-6d77610bd667.png)
+
+
+15. Finally, we got the flag!
 
 
 ## FLAG
 
 ```
-
+CTFlearn{M1NI0NS_ARE_C00L}
 ```
 
 
