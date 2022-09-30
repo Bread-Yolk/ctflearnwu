@@ -9,4 +9,16 @@ The flag is hidden in the jpeg file. Good Luck! Have some Pho! Solve this challe
 - NONE
 ## STEPS:
 1. First, download the file given.
-2. 
+2. Open it using hexeditor.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/193174786-e46155bc-9494-40e6-ba6e-140ddb6ed820.png)
+
+3. Got the flag!
+
+## FLAG
+
+```
+CTFlearn{I_Love_Pho!!!}
+```
