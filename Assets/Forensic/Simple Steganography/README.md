@@ -44,4 +44,17 @@ Think the flag is somewhere in there. Would you help me find it? hint-" Steghide
 ![image](https://user-images.githubusercontent.com/70703371/193183279-f128b376-a8c8-4a8f-870b-9881f5f90ff1.png)
 
 
-8. 
+8. It is known that it is a base64 encoding text, so let's just decode it.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/193183552-beccbb90-7874-42b6-b0fa-ddc9d7d0eaad.png)
+
+
+9. Finally, we got the flag.
+
+## FLAG
+
+```
+CTFlearn{this_is_fun}
+```
