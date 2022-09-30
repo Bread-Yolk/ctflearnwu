@@ -3,7 +3,7 @@
 ## DESCRIPTION:
 Extract the flag from the Gandalf.jpg file. You may need to write a quick script to solve this.
 
-[FILE]()
+[FILE](https://github.com/Bread-Yolk/ctflearnwu/blob/193060899bc1cf8d4ff839bc8f33929fdc106b0c/Assets/Forensic/GandalfTheWise/Gandalf.jpg)
 
 ## HINT:
 - NONE
