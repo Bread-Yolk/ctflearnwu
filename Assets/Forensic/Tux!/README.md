@@ -48,5 +48,16 @@ The flag is hidden inside the Penguin! Solve this challenge before solving my 10
 ![image](https://user-images.githubusercontent.com/70703371/193171722-5b84ad8c-ff61-4726-8ab9-0f13027f7a5a.png)
 
 
-10. 
+10. Strings the `flag`.
+
+![image](https://user-images.githubusercontent.com/70703371/193171953-4b036105-8a25-4590-b98c-252a4432bf15.png)
+
+
+11. Got the flag!
+
+## FLAG
+
+```
+CTFlearn{Linux_Is_Awesome}
+```
 
