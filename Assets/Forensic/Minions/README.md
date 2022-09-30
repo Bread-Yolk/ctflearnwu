@@ -7,4 +7,5 @@ https://mega.nz/file/1UBViYgD#kjKISs9pUB4E-1d79166FeX3TiY5VQcHJ_GrcMbaLhg Can yo
 - NONE
 ## STEPS:
 1. First, open the link given.
-2. 
+2. Download the file.
+3. 
