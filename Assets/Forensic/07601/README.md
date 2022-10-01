@@ -5,4 +5,5 @@ https://mega.nz/#!CXYXBQAK!6eLJSXvAfGnemqWpNbLQtOHBvtkCzA7-zycVjhHPYQQ I think I
 ## HINT:
 - NONE
 ## STEPS:
-1. First, open the link given,
+1. First, open the link given,.
+2. 
