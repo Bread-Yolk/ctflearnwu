@@ -16,4 +16,9 @@ https://mega.nz/#!CXYXBQAK!6eLJSXvAfGnemqWpNbLQtOHBvtkCzA7-zycVjhHPYQQ I think I
 
 4. Well, that's a lot.
 5. Jump to the extracted folder.
+
+> INSIDE 
+
+![image](https://user-images.githubusercontent.com/70703371/193403520-cf69de6e-53ab-42d8-aa64-6562cad417e5.png)
+
 6. 
