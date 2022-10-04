@@ -92,5 +92,16 @@ int main() {
 
 ```
 
-7. 
+7. At the vuln function, the first if statement does draw attention to me.
+
+![image](https://user-images.githubusercontent.com/70703371/193817882-48794531-22be-4e60-beff-723e08018035.png)
+
+
+8. The secret must be at the mentioned offset in order we can have the flag.
+9. Notice there are four stack canaries.
+
+![image](https://user-images.githubusercontent.com/70703371/193818328-0fcd7ed8-d358-4289-87bc-a95e6d3c58c7.png)
+
+
+10. 
 
