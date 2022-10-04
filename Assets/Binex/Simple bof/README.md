@@ -103,5 +103,31 @@ int main() {
 ![image](https://user-images.githubusercontent.com/70703371/193818328-0fcd7ed8-d358-4289-87bc-a95e6d3c58c7.png)
 
 
-10. 
+10. Let's convert the hex mentioned for secret to string.
+
+![image](https://user-images.githubusercontent.com/70703371/193818923-69f28834-55a2-4aaa-9670-23726a9de922.png)
+
+
+11. Since at the stack it will be read backwards.
+12. So we need to enter `flag` at the first byte for `secret`.
+13. Let's run the netcat again and input 48 A's. (32 + 16) -> (padding + buff).
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/193819855-c6f139bd-cb4b-472e-96a1-7e1b95db05c2.png)
+
+
+14. Yes, we overflowed the buffer! Now append `flag` at the end of the input.
+
+![image](https://user-images.githubusercontent.com/70703371/193819998-12ece403-1574-4d4d-99f5-9a3b9aac4a77.png)
+
+
+15. Got the flag!
+
+## FLAG
+
+```
+CTFlearn{buffer_0verflows_4re_c00l!}
+```
+
 
