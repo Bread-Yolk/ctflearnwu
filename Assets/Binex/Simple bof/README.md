@@ -13,13 +13,20 @@ You need guidance? Look no further than to Mr. Liveoverflow. He puts out nice vi
 - NONE
 ## STEPS:
 1. First, download the `.c` file given.
-2. Next, let's run the code first.
-
+2. Next, let's run the netcat first.
 
 > RESULT
 
-![image](https://user-images.githubusercontent.com/70703371/193379550-7d847305-7aa9-487f-b207-3d7fa56d83e3.png)
+![image](https://user-images.githubusercontent.com/70703371/193816845-173c0654-c109-4d73-951c-46593ceb105d.png)
 
 
-3.fkjef
-4. 
+3. Looks like it just a simple bufferoverflow.
+4. Let's input any length of A's.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/193816971-cc951b12-bec6-4250-b368-8920ab600b48.png)
+
+
+5. It said we overflowed too much.
+
