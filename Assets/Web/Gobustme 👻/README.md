@@ -10,4 +10,13 @@ gobustme.ctflearn.com
 
 ## STEPS:
 1. First, open the link given.
-2. 
+2. Scroll down to the bottom.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/194578634-43d39523-06b4-4de1-8d38-25e2fa2d8675.png)
+
+
+3. Based from this lyrics, i think we may have to use a tools called `gobuster`.
+4.
+
