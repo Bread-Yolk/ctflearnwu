@@ -67,5 +67,12 @@ int main() {
 ```
 
 7. It seems we need to create file `flag.txt` first and let's type `FLAG{}` for the text inside.
-8. 
+8. Now let's run the file in gdb again.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/194570111-94b37b00-6117-4c2a-bf6d-af1ea2727600.png)
+
+
+9. 
 
