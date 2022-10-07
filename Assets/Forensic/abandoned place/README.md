@@ -30,4 +30,20 @@ the flag is outside of the pic, try to find it. another hint: dimensions, dimens
 
 > RESULT
 
+![image](https://user-images.githubusercontent.com/70703371/194572977-734fc1ea-e1ce-46ab-92bf-52c21cf8ec00.png)
+
+
+7. Now let's run **eog**.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/194573381-9dcab5dd-8e2b-4c66-8185-94312c37bf38.png)
+
+
+8. Even i used **stegsolve** but found nothing hidden using bit plane.
+9. Maybe change the height or width of the image can give us any clue.
+10. Open the image using hexeditor.
+
+> RESULT
+
 
