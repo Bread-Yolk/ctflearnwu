@@ -56,3 +56,9 @@ gobuster dir -u https://gobustme.ctflearn.com/ -w common.txt
 ```
 CTFlearn{gh0sbu5t3rs_4ever}
 ```
+
+## LEARNING REFERENCES:
+
+```
+https://hackertarget.com/gobuster-tutorial/
+```
