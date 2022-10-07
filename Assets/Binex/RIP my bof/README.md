@@ -20,4 +20,11 @@ If you get stuck liveoverflow covers you again!
 
 
 3. Go to the extracted folder.
-4. 
+4. Let's run the **server** file.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/194563320-7a0be066-b7e0-4bb5-87be-74131024d127.png)
+
+
+5. 
