@@ -27,4 +27,9 @@ If you get stuck liveoverflow covers you again!
 ![image](https://user-images.githubusercontent.com/70703371/194563320-7a0be066-b7e0-4bb5-87be-74131024d127.png)
 
 
-5. 
+5. Let's input any length of A's.
+
+![image](https://user-images.githubusercontent.com/70703371/194563423-6933d1a4-e7d1-47c4-a1da-0806135489bc.png)
+
+
+6. 
