@@ -9,4 +9,11 @@ Which format tag is your favourite?
 - NONE
 ## STEPS:
 1. First, download the file given.
-2. Next, 
+2. Next, extract the `tar.gz` file.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/194568494-f3e089d6-6e0e-44fc-9e12-e0e567d1d5a3.png)
+
+
+3. 
