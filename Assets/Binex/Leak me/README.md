@@ -27,4 +27,41 @@ Which format tag is your favourite?
 
 
 4. Since the file is not stripped, so we can see the functions names.
-5. 
+5. Anyway let's try to run the file using gdb.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/194569285-4c9004d1-276c-4b45-9850-de354bf9f8bd.png)
+
+
+6. Hmm.. let's analyze the code then.
+
+> TASK.C
+
+```c
+#include <stdlib.h>
+#include <stdio.h>
+
+int main() {
+    setvbuf(stdout, NULL, _IONBF, 0);
+    setvbuf(stdin, NULL, _IONBF, 0);
+
+    char flag[64], buffer[64];
+
+    FILE *f = fopen("./flag.txt", "rt");
+    if (f == NULL) {
+        puts("No flag.txt found, contact an admin");
+        return 1;
+    }
+
+    fgets(flag, 64, f);      
+    fclose(f);
+
+    printf("What is your favorite format tag? ");
+    fgets(buffer, sizeof(buffer), stdin);
+    printf(buffer);
+
+    return 0;
+}
+
+```
