@@ -58,10 +58,28 @@ the flag is outside of the pic, try to find it. another hint: dimensions, dimens
 ![image](https://user-images.githubusercontent.com/70703371/194575705-ef9c9432-835b-472e-ae68-c070ee2185e1.png)
 
 
-14. Change the value of 
+14. We can conclude that these bytes are for the height.
+
+![image](https://user-images.githubusercontent.com/70703371/194575924-c2980a8e-45b6-4c3b-a6ea-f66629399fe2.png)
 
 
-14. Now let's change this value 
+15. Change the `03` to `07`, then run `eog` again.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/194576257-1400e76a-1e66-4c4d-9529-1dc38d43b23e.png)
+
+
+16. Got the flag!
+
+
+### FLAG
+
+```
+CTFlearn{urban_exploration}
+```
+
+
 
 ## LEARNING REFERENCES:
 
