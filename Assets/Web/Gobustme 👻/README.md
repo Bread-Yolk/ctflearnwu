@@ -31,4 +31,28 @@ gobuster dir -u https://gobustme.ctflearn.com/ -w common.txt
 ![image](https://user-images.githubusercontent.com/70703371/194579893-1b40e55a-e3e9-4f06-bb82-1796e82e94bc.png)
 
 
-5. 
+![image](https://user-images.githubusercontent.com/70703371/194580316-206f5842-0192-4c63-b6c8-ef007d3ebc8c.png)
+
+
+5. Open the `flag` directory.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/194580397-96c7d8f5-e66d-4824-9a67-915788f30ffc.png)
+
+
+6. Open the `hide` directory.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/194580512-1669e6a9-5eaf-4c7e-84b9-8e094d0d50be.png)
+
+
+7. Got the flag!
+
+
+## FLAG
+
+```
+CTFlearn{gh0sbu5t3rs_4ever}
+```
