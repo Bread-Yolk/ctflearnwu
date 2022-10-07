@@ -65,3 +65,7 @@ int main() {
 }
 
 ```
+
+7. It seems we need to create file `flag.txt` first and let's type `FLAG{}` for the text inside.
+8. 
+
