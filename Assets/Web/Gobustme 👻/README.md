@@ -18,5 +18,17 @@ gobustme.ctflearn.com
 
 
 3. Based from this lyrics, i think we may have to use a tools called `gobuster`.
-4.
+4. Let's use `gobuster`. 
 
+> COMMAND
+
+```sh
+gobuster dir -u https://gobustme.ctflearn.com/ -w common.txt
+```
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/194579893-1b40e55a-e3e9-4f06-bb82-1796e82e94bc.png)
+
+
+5. 
