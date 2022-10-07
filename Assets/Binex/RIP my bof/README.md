@@ -12,4 +12,12 @@ If you get stuck liveoverflow covers you again!
 - NONE
 ## STEPS:
 1. First, download the file given.
-2. 
+2. Next, extract the `tar.gz` file.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/194563091-5297e2f5-e98a-42c4-acee-113568676149.png)
+
+
+3. Go to the extracted folder.
+4. 
