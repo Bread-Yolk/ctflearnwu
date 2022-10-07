@@ -42,8 +42,29 @@ the flag is outside of the pic, try to find it. another hint: dimensions, dimens
 
 8. Even i used **stegsolve** but found nothing hidden using bit plane.
 9. Maybe change the height or width of the image can give us any clue.
-10. Open the image using hexeditor.
+10. Open the image using **cyberchef** or using **hexedit**.
+11. This time i used **hexedit**.
+12. To change the height of JPG, we need to know this.
+
+> NOTES
+
+![image](https://user-images.githubusercontent.com/70703371/194574447-3e06ebff-3a66-4c4b-b9c7-0dd8f610a61c.png)
+
+
+13. Now let's search `ff c0`.
 
 > RESULT
 
+![image](https://user-images.githubusercontent.com/70703371/194575705-ef9c9432-835b-472e-ae68-c070ee2185e1.png)
 
+
+14. Change the value of 
+
+
+14. Now let's change this value 
+
+## LEARNING REFERENCES:
+
+```
+https://blog.cyberhacktics.com/hiding-information-by-changing-an-images-height/
+```
