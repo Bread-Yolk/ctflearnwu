@@ -16,4 +16,5 @@ Credit: picoCTF 2017
 
 ## STEPS:
 1. First, open the link given.
-2. Next
+2. Next, download the `.pcap` file.
+3. 
