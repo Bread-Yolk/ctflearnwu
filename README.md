@@ -49,6 +49,18 @@
 |2. |[RIP my bof](https://github.com/Bread-Yolk/ctflearnwu/blob/cbf0400d11f5041a55ec0ee1e079ff08946ee1e4/Assets/Binex/RIP%20my%20bof/README.md)|CTFlearn{c0ntr0ling_r1p_1s_n0t_t00_h4rd_abjkdlfa}|
 |3. |[Simple bof](https://github.com/Bread-Yolk/ctflearnwu/blob/cbf0400d11f5041a55ec0ee1e079ff08946ee1e4/Assets/Binex/Simple%20bof/README.md)|CTFlearn{buffer_0verflows_4re_c00l!}|
 
+
 </details>
+
+
+<details>
+<summary> Web Exploitation </summary>
+<br>
+
+ |No.|Challenges|Flag|
+ |:-:|:--------:|:--:|
+ |1. |[My Blog](https://github.com/Bread-Yolk/ctflearnwu/blob/fd49b5f2bbbaf834b46b5186b6892025c3cf8b24/Assets/Web/My%20Blog/README.md)|CTFlearn{n7f_l0c4l_570r463_15n7_53cur3_570r463}|
+ 
+ </details>
 
 
