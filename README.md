@@ -60,6 +60,7 @@
  |No.|Challenges|Flag|
  |:-:|:--------:|:--:|
  |1. |[My Blog](https://github.com/Bread-Yolk/ctflearnwu/blob/fd49b5f2bbbaf834b46b5186b6892025c3cf8b24/Assets/Web/My%20Blog/README.md)|CTFlearn{n7f_l0c4l_570r463_15n7_53cur3_570r463}|
+ |2. |[Gobustme 👻](https://github.com/Bread-Yolk/ctflearnwu/blob/cff31efe837f9c3d09dc3b3bd943cdd067381df9/Assets/Web/Gobustme%20%F0%9F%91%BB/README.md)|CTFlearn{gh0sbu5t3rs_4ever}|
  
  </details>
 
