@@ -48,7 +48,7 @@
 |1. |[Lazy Game Challenge](https://github.com/Bread-Yolk/ctflearnwu/blob/cbf0400d11f5041a55ec0ee1e079ff08946ee1e4/Assets/Binex/Lazy%20Game%20Challenge/README.md)|CTFlearn{d9029a08c55b936cbc9a30_i_wish_real_betting_games_were_like_this!}|
 |2. |[RIP my bof](https://github.com/Bread-Yolk/ctflearnwu/blob/cbf0400d11f5041a55ec0ee1e079ff08946ee1e4/Assets/Binex/RIP%20my%20bof/README.md)|CTFlearn{c0ntr0ling_r1p_1s_n0t_t00_h4rd_abjkdlfa}|
 |3. |[Simple bof](https://github.com/Bread-Yolk/ctflearnwu/blob/cbf0400d11f5041a55ec0ee1e079ff08946ee1e4/Assets/Binex/Simple%20bof/README.md)|CTFlearn{buffer_0verflows_4re_c00l!}|
-
+|4. |[Favorite Color](https://github.com/Bread-Yolk/ctflearnwu/blob/17ddeb119979e04e2e5ff4a138f6734128a04d93/Assets/Binex/Favorite%20Color/README.md)|CTFlearn{c0lor_0f_0verf1ow}|
 
 </details>
 
