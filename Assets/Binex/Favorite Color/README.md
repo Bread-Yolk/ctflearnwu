@@ -58,6 +58,65 @@ What's your favorite color? Would you like to share with me? Run the command: `s
 
 11. We got clue here, we can control the return address.
 12. We need to know how many padding should we add, so we can overwrite the eip.
-13. 
+13. For this solution i cut the bytes in half first, but remember it has to be a multiple of 4. So let's enter **48** bytes.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/194745185-56560e31-0695-4316-9620-1973a145fc96.png)
+
+
+14. Got segmentation fault, but let's add another 4 bytes to it.
+
+> 52 BYTES
+
+![image](https://user-images.githubusercontent.com/70703371/194745273-0a8a4426-69e6-4214-9af1-1761195426b2.png)
+
+
+15. We got different return address now, add another again.
+
+> 56 BYTES
+
+![image](https://user-images.githubusercontent.com/70703371/194745315-4594c67e-144a-49ce-b973-7fa275b04c6f.png)
+
+
+16. Great! Now we know the correct padding is **52 Bytes**.
+17. Now let's analyze the source code so we know the offset we need to add.
+
+> COLOR.C
+
+``` c
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+int vuln() {
+    char buf[32];
+    
+    printf("Enter your favorite color: ");
+    gets(buf);
+    
+    int good = 0;
+    for (int i = 0; buf[i]; i++) {
+        good &= buf[i] ^ buf[i];
+    }
+    
+    return good;
+int main(char argc, char** argv) {
+    setresuid(getegid(), getegid(), getegid());
+    setresgid(getegid(), getegid(), getegid());
+    
+    //disable buffering.
+    setbuf(stdout, NULL);
+    
+    if (vuln()) {
+        puts("Me too! That's my favorite color too!");
+        puts("You get a shell! Flag is in flag.txt");
+        system("/bin/sh");
+    } else {
+        puts("Boo... I hate that color! :(");
+    }
+
+```
+
+18. 
 
 
