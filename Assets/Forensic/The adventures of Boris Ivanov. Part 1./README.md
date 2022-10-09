@@ -17,4 +17,19 @@ Here is the interception data: https://mega.nz/#!HfAHmKQb!zg6EPqfwes1bBDCjx7-ZFR
 
 
 4. We got clue here -> GIMP.
-5. 
+5. So i think we can use **stegsolve** for this challenge.
+6. Open stegsolve, then choose `analyze` -> `stereogram solver`.
+7. Moved to offset **102**.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/194754342-5a6e8f94-a956-41b7-b109-45248089d6fc.png)
+
+
+8. Got the flag!
+
+## FLAG
+
+```
+flag{d0nt_m3s5_w1th_th3_KGB}
+```
