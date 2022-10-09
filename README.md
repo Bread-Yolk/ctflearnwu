@@ -33,7 +33,7 @@
 |22. |[WOW.... So Meta](https://github.com/Bread-Yolk/ctflearnwu/blob/2d385b47049644639ccc8052715a092d225790b8/Assets/Forensic/WOW....%20So%20Meta/README.md)|CTFlearn{EEe_x_I_FFf}|
 |23. |[abandoned place](https://github.com/Bread-Yolk/ctflearnwu/blob/2d385b47049644639ccc8052715a092d225790b8/Assets/Forensic/abandoned%20place/README.md)|CTFlearn{urban_exploration}|
 |24. |[Digital Camouflage](https://github.com/Bread-Yolk/ctflearnwu/blob/d2d648b8a6243c55fc59ed15417df72f3562b081/Assets/Forensic/Digital%20Camouflage/README.md)|PApdsjRTae|
-
+|25. |[The adventures of Boris Ivanov. Part 1.](https://github.com/Bread-Yolk/ctflearnwu/blob/9eef190f7e4961f0e2b567b1daf174ecc3b3d3d1/Assets/Forensic/The%20adventures%20of%20Boris%20Ivanov.%20Part%201./README.md)|flag{d0nt_m3s5_w1th_th3_KGB}|
  
 </details>
 
