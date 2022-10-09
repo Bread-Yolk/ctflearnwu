@@ -117,6 +117,28 @@ int main(char argc, char** argv) {
 
 ```
 
-18. 
+18. We need to find the start offset from this if statement.
+
+![image](https://user-images.githubusercontent.com/70703371/194745668-b66be0ee-f0fa-490a-91be-fb0992051fd4.png)
+
+
+19. Open the file in gdb and **disass** the main.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/194745697-f9b9fd56-6dd7-4c4b-a3ac-f3c970a70d34.png)
+
+
+20. It should start from here.
+
+![image](https://user-images.githubusercontent.com/70703371/194745714-97865177-5981-4df6-97eb-c4f291bdcab6.png)
+
+
+21. And this is the **system** function offset.
+
+![image](https://user-images.githubusercontent.com/70703371/194745898-4034d649-e5eb-4432-aa97-e1e21a65b79d.png)
+
+
+22. 
 
 
