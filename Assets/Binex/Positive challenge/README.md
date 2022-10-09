@@ -5,7 +5,7 @@ I made sure that you couldn't get a negative value, I also forced only positive 
 
 `nc rivit.dev 10010`
 
-[FILE]()
+[FILE](https://github.com/Bread-Yolk/ctflearnwu/blob/f3dc1761659066a2e55f8df58f36dc441b5ee20c/Assets/Binex/Positive%20challenge/task.tar.gz)
 
 ## HINT:
 - NONE
