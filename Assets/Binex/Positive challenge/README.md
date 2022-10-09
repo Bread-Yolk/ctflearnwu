@@ -15,4 +15,7 @@ I made sure that you couldn't get a negative value, I also forced only positive 
 
 > RESULT
 
+![image](https://user-images.githubusercontent.com/70703371/194739676-d6b736ba-47a8-492e-8520-b18ce5be01cd.png)
 
+
+3. 
