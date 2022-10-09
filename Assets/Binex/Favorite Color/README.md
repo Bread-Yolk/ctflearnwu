@@ -57,7 +57,7 @@ What's your favorite color? Would you like to share with me? Run the command: `s
 
 
 11. We got clue here, we can control the return address.
-12. We need to know how many padding should we add or the **eip**.
+12. We need to know how many padding should we add, so we can overwrite the eip.
 13. 
 
 
