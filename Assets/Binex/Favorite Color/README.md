@@ -49,9 +49,15 @@ What's your favorite color? Would you like to share with me? Run the command: `s
 
 
 9. Got segmentation fault.
-10. Let's run the program in gdb.
+10. Let's run the program in gdb and enter 100 A's as the input.
 
 > GDB
 
+![image](https://user-images.githubusercontent.com/70703371/194744959-c21264be-8c25-40a7-8a2e-cbba43464ad4.png)
+
+
+11. We got clue here, we can control the return address.
+12. We need to know how many padding should we add or the **eip**.
+13. 
 
 
