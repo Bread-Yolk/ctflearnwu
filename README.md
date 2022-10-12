@@ -74,6 +74,6 @@
  |2. |[Base 2 2 the 6](https://github.com/Bread-Yolk/ctflearnwu/blob/af3cd35634602cd31e644fdfbf4193fd7e708ffe/Assets/Crypto/Base%202%202%20the%206/README.md)|CTF{FlaggyWaggyRaggy}|
  |3. |[Morse Code](https://github.com/Bread-Yolk/ctflearnwu/blob/2e85394f15dacec48224da20c85af63ecda3daea/Assets/Crypto/Morse%20Code/README.md)|FLAGSAMUELMORSEISCOOLBYTHEWAYILIKECHEES|
  |4. |[Reverse Polarity](https://github.com/Bread-Yolk/ctflearnwu/blob/db3788c11b86ec954eb7e010c62e4bc8f9def4f1/Assets/Crypto/Reverse%20Polarity/README.md)|CTF{Bit_Flippin}|
- 
+ |5. |[Hextroadinary](https://github.com/Bread-Yolk/ctflearnwu/blob/63f145342aa19e5b1183c7ae105a1fbed08f1eb3/Assets/Crypto/Hextroadinary/README.md)|0xc0ded|
  </details>
 
