@@ -12,4 +12,23 @@ The below hex values for example, she did something with them to generate a secr
 - NONE
 
 ## STEPS:
-1. 
+1. Based from the description, we need to submit the flag with `0x` as the prefix.
+2. Also something caught my attention, the `ROX` word.
+3. It could be related to XOR, what comes to my mind is [XOR calculator](https://xor.pw/#)
+4. Paste both hexadecimal value there.
+
+> RESULT
+
+
+![image](https://user-images.githubusercontent.com/70703371/195376760-332e94d0-1496-4f41-92d0-6119de536a76.png)
+
+
+5. Simply add `0x` as the prefix.
+6. Got the flag!
+
+
+## FLAG
+
+```
+0xc0ded
+```
