@@ -76,6 +76,6 @@
  |4. |[Reverse Polarity](https://github.com/Bread-Yolk/ctflearnwu/blob/db3788c11b86ec954eb7e010c62e4bc8f9def4f1/Assets/Crypto/Reverse%20Polarity/README.md)|CTF{Bit_Flippin}|
  |5. |[Hextroadinary](https://github.com/Bread-Yolk/ctflearnwu/blob/63f145342aa19e5b1183c7ae105a1fbed08f1eb3/Assets/Crypto/Hextroadinary/README.md)|0xc0ded|
  |6. |[Vigenere Cipher](https://github.com/Bread-Yolk/ctflearnwu/blob/96ed6fc4c29c59bbcebbc806234224658125e577/Assets/Crypto/Vigenere%20Cipher/README.md)|flag{CiphersAreAwesome}|
- 
+ |7. |[BruXOR](https://github.com/Bread-Yolk/ctflearnwu/blob/18cf224104a4575b326a0eab3a4b86ffa5bfb1d6/Assets/Crypto/BruXOR/README.md)|flag{y0u_Have_bruteforce_XOR}|
  </details>
 
