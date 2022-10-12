@@ -71,6 +71,7 @@
  |No.|Challenges|Flag|
  |:-:|:--------:|:--:|
  |1. |[Character Encoding](https://github.com/Bread-Yolk/ctflearnwu/blob/f09c11a1c457c6db8d8f4e160e3ebe4f5545a6ae/Assets/Crypto/Character%20Encoding/README.md)|ABCTF{45C11_15_U53FUL}|
+ |2. |[Base 2 2 the 6](https://github.com/Bread-Yolk/ctflearnwu/blob/af3cd35634602cd31e644fdfbf4193fd7e708ffe/Assets/Crypto/Base%202%202%20the%206/README.md)|CTF{FlaggyWaggyRaggy}|
  
  </details>
 
