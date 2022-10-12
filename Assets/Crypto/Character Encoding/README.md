@@ -11,4 +11,30 @@ Can you figure this one out? 41 42 43 54 46 7B 34 35 43 31 31 5F 31 35 5F 55 35 
 2. We can convert it to ASCII.
 3. For this solution i made a python script to decode it.
 
-> 
+> THE SCRIPT
+
+```py
+import os
+
+os.system("cls")
+
+strings = "41 42 43 54 46 7B 34 35 43 31 31 5F 31 35 5F 55 35 33 46 55 4C 7D"
+result = bytearray.fromhex(strings)
+fin = result.decode()
+print(fin)
+```
+
+> OUTPUT
+
+
+![image](https://user-images.githubusercontent.com/70703371/195369745-b0831897-ff23-403f-b8b7-202e517f699d.png)
+
+
+4. Got the flag!
+
+
+## FLAG
+
+```
+ABCTF{45C11_15_U53FUL}
+```
