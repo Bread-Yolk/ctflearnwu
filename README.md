@@ -64,4 +64,13 @@
  
  </details>
 
+<details>
+<summary> Cryptography </summary>
+<br>
+
+ |No.|Challenges|Flag|
+ |:-:|:--------:|:--:|
+ |1. |[Character Encoding](https://github.com/Bread-Yolk/ctflearnwu/blob/f09c11a1c457c6db8d8f4e160e3ebe4f5545a6ae/Assets/Crypto/Character%20Encoding/README.md)|ABCTF{45C11_15_U53FUL}|
+ 
+ </details>
 
