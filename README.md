@@ -78,6 +78,9 @@
  |6. |[Vigenere Cipher](https://github.com/Bread-Yolk/ctflearnwu/blob/96ed6fc4c29c59bbcebbc806234224658125e577/Assets/Crypto/Vigenere%20Cipher/README.md)|flag{CiphersAreAwesome}|
  |7. |[BruXOR](https://github.com/Bread-Yolk/ctflearnwu/blob/18cf224104a4575b326a0eab3a4b86ffa5bfb1d6/Assets/Crypto/BruXOR/README.md)|flag{y0u_Have_bruteforce_XOR}|
  |8. |[HyperStream Test #2](https://github.com/Bread-Yolk/ctflearnwu/blob/775291cff16163e5844f5ae5213f2a7dfc92f6bc/Assets/Crypto/HyperStream%20Test%20%232/README.md)|ILOUEBACONDONTYOU|
+ |9. |[Modern Gaius Julius Caesar](https://github.com/Bread-Yolk/ctflearnwu/blob/fb2e88763fbb997f480cf1783ca39d31dc6f26d8/Assets/Crypto/Modern%20Gaius%20Julius%20Caesar/README.md)|CTFlearn{Cyb3r_Cae54r}|
+ |10. |[]()||
+ |11. |[]()||
  
  </details>
 
