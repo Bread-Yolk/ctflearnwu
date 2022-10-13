@@ -30,4 +30,6 @@ http://165.227.106.113/post.php
 ![image](https://user-images.githubusercontent.com/70703371/195620500-736b6fdf-0118-4a52-8a14-525354512035.png)
 
 
-8. 
+8. Let's use `curl`
+
+
