@@ -34,7 +34,7 @@ http://165.227.106.113/post.php
 
 > COMMAND
 
-```
+```sh
 curl -d username="admin" -d password="71urlkufpsdnlkadsf" http://165.227.106.113/post.php
 ```
 
