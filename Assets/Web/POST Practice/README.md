@@ -31,10 +31,32 @@ http://165.227.106.113/post.php
 
 
 8. Let's use `curl`.
-9. Save the creds into a `.txt` file..
+
+> COMMAND
+
+```
+curl -d username="admin" -d password="71urlkufpsdnlkadsf" http://165.227.106.113/post.php
+```
+
+> NOTES
+
+```
+-d -> sends data
+```
 
 > RESULT
 
+![image](https://user-images.githubusercontent.com/70703371/195790663-4df202da-1c9a-4812-b57e-1d7c611f27bd.png)
+
+
+9. Got the flag!
+
+
+## FLAG
+
+```
+flag{p0st_d4t4_4ll_d4y}
+```
 
 
 
