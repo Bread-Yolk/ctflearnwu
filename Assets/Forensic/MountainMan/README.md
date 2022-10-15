@@ -26,9 +26,18 @@ Don't be fooled by two 0xffd9 markers. xor is your friend.
 88 9F 8D A7 AE AA B9 A5 B0 9E A9 BE A5 BF BE 94 B9 FB A8 A0 FE B6 FF D9
 ```
 
-5. For this solution, i made a python script to decode it.
+5. Based from the description, open [this]() **xor** online decoder.
+6. Paste the hexadecimal, then choose the **bruteforce** method.
 
-> SCRIPT
+> RESULT
 
-```py
+![image](https://user-images.githubusercontent.com/70703371/195991402-7b56156d-df9b-4427-a5e2-3850956b395e.png)
+
+
+7. Got the flag!
+
+## FLAG
+
+```
+CTFlearn{Ubuntu_r0ck5}
 ```
