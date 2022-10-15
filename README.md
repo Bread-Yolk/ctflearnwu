@@ -35,6 +35,8 @@
 |24. |[Digital Camouflage](https://github.com/Bread-Yolk/ctflearnwu/blob/d2d648b8a6243c55fc59ed15417df72f3562b081/Assets/Forensic/Digital%20Camouflage/README.md)|PApdsjRTae|
 |25. |[The adventures of Boris Ivanov. Part 1.](https://github.com/Bread-Yolk/ctflearnwu/blob/9eef190f7e4961f0e2b567b1daf174ecc3b3d3d1/Assets/Forensic/The%20adventures%20of%20Boris%20Ivanov.%20Part%201./README.md)|flag{d0nt_m3s5_w1th_th3_KGB}|
 |26. |[Exclusive Santa](https://github.com/Bread-Yolk/ctflearnwu/blob/8815f54fd7ad470fa7931d6f9c3bcd5433757d28/Assets/Forensic/Exclusive%20Santa/README.md)|CTFlearn{Santa_1s_C0ming}|
+|27. |[Naughty Cat](https://github.com/Bread-Yolk/ctflearnwu/blob/6adc9ab23d2761205678b1ef7b1c8b0215498ea2/Assets/Forensic/Naughty%20Cat/README.md)|f0r3n51cs_ma5t3r|
+
 </details>
 
 
