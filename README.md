@@ -37,6 +37,7 @@
 |26. |[Exclusive Santa](https://github.com/Bread-Yolk/ctflearnwu/blob/8815f54fd7ad470fa7931d6f9c3bcd5433757d28/Assets/Forensic/Exclusive%20Santa/README.md)|CTFlearn{Santa_1s_C0ming}|
 |27. |[Naughty Cat](https://github.com/Bread-Yolk/ctflearnwu/blob/6adc9ab23d2761205678b1ef7b1c8b0215498ea2/Assets/Forensic/Naughty%20Cat/README.md)|f0r3n51cs_ma5t3r|
 |28. |[MountainMan](https://github.com/Bread-Yolk/ctflearnwu/blob/2c2269e8261495d9ec423dae294c6abf259ce257/Assets/Forensic/MountainMan/README.md)|CTFlearn{Ubuntu_r0ck5}|
+|29. |[Smiling ASCII](https://github.com/Bread-Yolk/ctflearnwu/blob/beb04f6179d46cf292c88ab7c2b6f60accf7bb85/Assets/Forensic/Smiling%20ASCII/README.md)|CTFlearn{ascii_pixel_flag}|
 
 </details>
 
