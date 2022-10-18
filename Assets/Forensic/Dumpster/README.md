@@ -9,4 +9,11 @@ Here's the source code of the Java program and the heap dump: https://mega.nz/#!
 ## STEPS:
 1. First, open the link given.
 2. Next, download the file given.
-3. 
+3. Unzip the file.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/196395795-1498fe3a-0b11-4a2c-b659-44526a700b0d.png)
+
+
+4. 
