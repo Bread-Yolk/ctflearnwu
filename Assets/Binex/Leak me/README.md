@@ -3,6 +3,8 @@
 ## DESCRIPTION:
 Which format tag is your favourite?
 
+`nc rivit.dev 10003`
+
 [FILE](https://github.com/Bread-Yolk/ctflearnwu/blob/d86503045d9e9e6cdcd3ea2f547b8f04697c0dc9/Assets/Binex/Leak%20me/task.tar.gz)
 
 ## HINT:
@@ -74,5 +76,23 @@ int main() {
 ![image](https://user-images.githubusercontent.com/70703371/194570111-94b37b00-6117-4c2a-bf6d-af1ea2727600.png)
 
 
-9. 
+9. Since it asks us about format tag, i tried to input %x.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/200119912-0d5c0715-4382-408b-9452-f2e92894fe5a.png)
+
+
+![image](https://user-images.githubusercontent.com/70703371/200119930-86dd15f1-4fd2-411c-9a80-739865718abf.png)
+
+
+10. Just a random decimal value.
+11. Then i tried to input 20 %x. -> %x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/200120066-60f3b040-9b75-4b39-b017-972d82602a6d.png)
+
+
+12. Hmm noticed there's one 
 
