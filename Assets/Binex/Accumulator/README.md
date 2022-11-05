@@ -34,4 +34,32 @@ I'll give you a flag if you can get a negative number by adding only positive nu
 ![image](https://user-images.githubusercontent.com/70703371/200119552-6b689cb2-8ed1-4a22-811b-f6a5410f8e3e.png)
 
 
-7. Since it's related to bufferoverflow, try to
+7. Since it's related to bufferoverflow, i tried to input 10^10.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/200119607-a2a328ed-448c-48cd-909d-49ccc00e528f.png)
+
+
+8. Hmm.. let's try 10^11.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/200119634-b5699a22-0d21-4591-957c-7ac9c63cc1b6.png)
+
+
+9. Great! We bufferoverflowed it.
+10. Run the netcat and do the same steps.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/200119665-67d46591-fc53-4bf8-97fc-c3c022a5eab2.png)
+
+
+11. Got the flag!
+
+## FLAG
+
+```
+CTFlearn{n3x7_7yp3_0f_0v3rf0w}
+```
