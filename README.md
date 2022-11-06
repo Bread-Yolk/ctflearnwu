@@ -88,6 +88,6 @@
  |9. |[Modern Gaius Julius Caesar](https://github.com/Bread-Yolk/ctflearnwu/blob/fb2e88763fbb997f480cf1783ca39d31dc6f26d8/Assets/Crypto/Modern%20Gaius%20Julius%20Caesar/README.md)|CTFlearn{Cyb3r_Cae54r}|
  |10. |[Suspecious message](https://github.com/Bread-Yolk/ctflearnwu/blob/1a5a776b356f8711e72bdb4490aac5cde4d8c995/Assets/Crypto/Suspecious%20message/README.md)|CTFLEARN{PL4YF41R_1S_C00L_C1PHERRRR}|
  |11. |[Tone dialing](https://github.com/Bread-Yolk/ctflearnwu/blob/583179905b8561854f985c0c9c379a050ea4a06f/Assets/Crypto/Tone%20dialing/README.md)|CTFlean{CRYPTOGRAPHY}|
- 
+ |12. |[Substitution Cipher](https://github.com/Bread-Yolk/ctflearnwu/blob/ca9890d2a0a60d666c15e01c0c550fb68f8aaa71/Assets/Crypto/Substitution%20Cipher/README.md)|IFONLYMODERNCRYPTOWASLIKETHIS|
  </details>
 
