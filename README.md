@@ -91,6 +91,7 @@
  |12. |[Substitution Cipher](https://github.com/Bread-Yolk/ctflearnwu/blob/ca9890d2a0a60d666c15e01c0c550fb68f8aaa71/Assets/Crypto/Substitution%20Cipher/README.md)|IFONLYMODERNCRYPTOWASLIKETHIS|
  |13. |[RSA Noob](https://github.com/Bread-Yolk/ctflearnwu/blob/95b6f669a14ed81eab3608bd850f2c13b22133ce/Assets/Crypto/RSA%20Noob/README.md)|abctf{b3tter_up_y0ur_e}|
  |14. |[5x5 Crypto](https://github.com/Bread-Yolk/ctflearnwu/blob/3c5b5d73497beab1b2d3dae7e135a1e0646bda78/Assets/Crypto/5x5%20Crypto/README.md)|CTF{THUMBS_UP}|
+ |15. |[RSA Beginner](https://github.com/Bread-Yolk/ctflearnwu/blob/be181c286a12d9eff7c6ea5f644573504fe2ec87/Assets/Crypto/RSA%20Beginner/README.md)|abctf{rs4_is_aw3s0m3}|
  
  </details>
 
