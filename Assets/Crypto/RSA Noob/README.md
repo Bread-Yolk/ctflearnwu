@@ -28,3 +28,12 @@ p = 416064700201658306196320137931
 q = 590872612825179551336102196593
 ```
 
+5. Next we need to find the private key in order to decrypt the ciphertext.
+
+> THE FORMULA FOR DECRYPTION
+
+![image](https://user-images.githubusercontent.com/70703371/200233997-f81a2582-6a61-49a6-988b-618640d29dc0.png)
+
+
+6. So for this solution, i made this python script.
+
