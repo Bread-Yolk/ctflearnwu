@@ -89,5 +89,6 @@
  |10. |[Suspecious message](https://github.com/Bread-Yolk/ctflearnwu/blob/1a5a776b356f8711e72bdb4490aac5cde4d8c995/Assets/Crypto/Suspecious%20message/README.md)|CTFLEARN{PL4YF41R_1S_C00L_C1PHERRRR}|
  |11. |[Tone dialing](https://github.com/Bread-Yolk/ctflearnwu/blob/583179905b8561854f985c0c9c379a050ea4a06f/Assets/Crypto/Tone%20dialing/README.md)|CTFlean{CRYPTOGRAPHY}|
  |12. |[Substitution Cipher](https://github.com/Bread-Yolk/ctflearnwu/blob/ca9890d2a0a60d666c15e01c0c550fb68f8aaa71/Assets/Crypto/Substitution%20Cipher/README.md)|IFONLYMODERNCRYPTOWASLIKETHIS|
+ |13. |[RSA Noob](https://github.com/Bread-Yolk/ctflearnwu/blob/95b6f669a14ed81eab3608bd850f2c13b22133ce/Assets/Crypto/RSA%20Noob/README.md)|abctf{b3tter_up_y0ur_e}|
  </details>
 
