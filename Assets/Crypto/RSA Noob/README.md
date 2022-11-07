@@ -37,3 +37,36 @@ q = 590872612825179551336102196593
 
 6. So for this solution, i made this python script.
 
+> THE SCRIPT
+
+```py
+import os
+
+os.system('clear')
+
+n = 245841236512478852752909734912575581815967630033049838269083
+e = 1
+c = 9327565722767258308650643213344542404592011161659991421
+p = 416064700201658306196320137931
+q = 590872612825179551336102196593
+
+d = pow(e, -1, (p-1)*(q-1))
+decrypt = hex(pow(c,d,n))
+decrypt = decrypt.strip("0x")
+result = bytearray.fromhex(decrypt)
+print(result.decode())
+
+```
+
+> OUTPUT
+
+![image](https://user-images.githubusercontent.com/70703371/200234962-5f828d89-6e96-41ea-a029-09c14b105052.png)
+
+
+7. Got the flag!
+
+## FLAG
+
+```
+abctf{b3tter_up_y0ur_e}
+```
