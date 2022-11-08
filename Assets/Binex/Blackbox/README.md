@@ -35,4 +35,9 @@ What is 1 + 1? Run the command: ssh blackbox@104.131.79.111 -p 1001 (pw: guest).
 ![image](https://user-images.githubusercontent.com/70703371/200485926-062c0d09-bb27-4265-b433-e90ce22b2c66.png)
 
 
+![image](https://user-images.githubusercontent.com/70703371/200485985-26d7f1a0-ef33-49f3-bb76-54aa19cea9c0.png)
+
+
+6. 
+
 
