@@ -50,7 +50,7 @@ the original command (generated using snprintf()), as well as the injected comma
 
 > THE SCRIPT
 
-```
+```py
 from pwn import *
 import os
 #64 bit
