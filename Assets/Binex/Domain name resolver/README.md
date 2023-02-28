@@ -10,32 +10,51 @@ Check IP of your favorite domain.
 ## HINT:
 - NONE
 ## STEPS:
-1. First, download the file given.
-2. Next, unzip the file.
+1. First, check the binary type and it's protections.
+
+> 64 bit, not stripped
+
+![image](https://user-images.githubusercontent.com/70703371/221830544-a849ccf1-34b5-4f8a-aa48-9abf06bc8ab6.png)
+
+
+> ALL ENABLED
+
+![image](https://user-images.githubusercontent.com/70703371/221830710-5053a7cd-7430-4a7e-90f7-52eb9be53892.png)
+
+
+2. Let's decompile the binary then.
+
+> main()
+
+![image](https://user-images.githubusercontent.com/70703371/221830800-8d2ee7a0-47fb-46f0-bc87-a1fd9fcfa5f3.png)
+
+
+3. Analyzing the main function we know that the input is not sanitized.
+
+![image](https://user-images.githubusercontent.com/70703371/221831239-f6b386ba-265a-42f5-acc0-eb9789ad7236.png)
+
+
+4. The program use the `system` call and use our input as it's argument/param.
+5. Hence we can utilize it with input the strings `;cat flag.txt`.
+6. This vuln commonly known as **command injection**.
+
+> WHY WE NEED SEMICOLON?
+
+```
+The semicolon character (;) is commonly used in command injection attacks to concatenate multiple commands in a single line. 
+In the context of this code, if an attacker inputs a semicolon followed by a command, the system() function will execute both 
+the original command (generated using snprintf()), as well as the injected command concatenated by the semicolon.
+```
 
 > RESULT
 
-![image](https://user-images.githubusercontent.com/70703371/195493644-7c9f57c3-5e8c-495c-bda4-83ef9b200ab2.png)
+![image](https://user-images.githubusercontent.com/70703371/221832156-203c62a0-245d-43e2-aced-816981a14b8c.png)
 
 
-3. Check the **file** type.
+7. Got the flag!
 
-![image](https://user-images.githubusercontent.com/70703371/195493684-aa4d681e-dbfb-4f81-bedf-b9ff9e548f6e.png)
+## FLAG
 
-
-4. Great! It's not stripped, means we can see the functions names.
-5. Check the file's protection.
-
-> RESULT
-
-![image](https://user-images.githubusercontent.com/70703371/195493789-8f18b3cc-d503-468f-bfc9-f639cd20696b.png)
-
-
-6. Let's decompile the file.
-
-> I USED GHIDRA
-
-
-
-
-7. 
+```
+CTFlearn{1s_c0mm4nd_1nj3ct10n_4_th1ng?}
+```
