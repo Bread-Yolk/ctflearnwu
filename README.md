@@ -56,6 +56,7 @@
 |5. |[Accumulator](https://github.com/Bread-Yolk/ctflearnwu/blob/3d4756d645213c5d407684a38ac1e46be92ce457/Assets/Binex/Accumulator/README.md)|CTFlearn{n3x7_7yp3_0f_0v3rf0w}|
 |6. |[Blackbox](https://github.com/Bread-Yolk/ctflearnwu/blob/a46da380f45b9b4679ffb3120483bd53214d8c4b/Assets/Binex/Blackbox/README.md)|flag{0n3_4lus_1_1s_Tw0_dumm13!!}|
 |7. |[Leak me](https://github.com/Bread-Yolk/ctflearnwu/blob/b8c57f20798fabced33b791ace4087a73e01454b/Assets/Binex/Leak%20me/README.md)|CTFlearn{1_l1k3_f0rm4t_t4g5_t00}|
+|8. |[Positive challenge](https://github.com/Bread-Yolk/ctflearnwu/blob/c36be538866b63127f87767d0bec78d45e9f03e3/Assets/Binex/Positive%20challenge/README.md)|CTFlearn{n0t_s0_p0s1t1v3_4t_4ll}|
 </details>
 
 
