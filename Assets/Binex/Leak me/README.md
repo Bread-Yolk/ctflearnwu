@@ -1,5 +1,5 @@
 # Leak me
-#### Write-up author: [jon-brandy](https://github.com/jon-brandy)
+> Write-up author: jon-brandy
 ## DESCRIPTION:
 Which format tag is your favourite?
 
@@ -18,81 +18,43 @@ Which format tag is your favourite?
 ![image](https://user-images.githubusercontent.com/70703371/194568494-f3e089d6-6e0e-44fc-9e12-e0e567d1d5a3.png)
 
 
-3. Check the `task` file first.
+3. Check the binary type and it's protections.
 
-> RESULT
+> 64 bit , not stripped.
 
-![image](https://user-images.githubusercontent.com/70703371/194568647-0176fe53-28ae-4e78-86e7-7823559f08fe.png)
-
-
-![image](https://user-images.githubusercontent.com/70703371/194568758-0820270d-2000-4f14-b6ab-4dc3120ea570.png)
+![image](https://user-images.githubusercontent.com/70703371/221806025-00e1cd08-2a34-443f-9d27-84641a04a1bc.png)
 
 
-4. Since the file is not stripped, so we can see the functions names.
-5. Anyway let's try to run the file using gdb.
+> All enabled
 
-> RESULT
-
-![image](https://user-images.githubusercontent.com/70703371/194569285-4c9004d1-276c-4b45-9850-de354bf9f8bd.png)
+![image](https://user-images.githubusercontent.com/70703371/221806105-ae681bfa-d289-40da-bf63-4be4dc1f4b21.png)
 
 
-6. Hmm.. let's analyze the code then.
+4. Let's decompile the binary.
 
-> TASK.C
+> main()
 
-```c
-#include <stdlib.h>
-#include <stdio.h>
+![image](https://user-images.githubusercontent.com/70703371/221806554-12419114-4233-4f69-94da-089d84480651.png)
 
-int main() {
-    setvbuf(stdout, NULL, _IONBF, 0);
-    setvbuf(stdin, NULL, _IONBF, 0);
 
-    char flag[64], buffer[64];
+5. Analyzing the main() function, noticed there's a format string vulnerability.
 
-    FILE *f = fopen("./flag.txt", "rt");
-    if (f == NULL) {
-        puts("No flag.txt found, contact an admin");
-        return 1;
-    }
+![image](https://user-images.githubusercontent.com/70703371/221806708-e24386c6-9011-4763-9aa8-1e5825bb138b.png)
 
-    fgets(flag, 64, f);      
-    fclose(f);
 
-    printf("What is your favorite format tag? ");
-    fgets(buffer, sizeof(buffer), stdin);
-    printf(buffer);
+6. Hence we can utilize it to leak any strings or address off the stack memory.
+7. To test our assumptions, let's make a file named `flag.txt` so we can run the binary, then let's input %x.
+8. And inside the `.txt` file let's insert 8 bytes of A chars.
 
-    return 0;
-}
+> RUN THE BINARY
+
+![image](https://user-images.githubusercontent.com/70703371/221808167-69d49bdc-0fbf-4363-880f-349fba706c98.png)
+
+
+9. Notice there's **41414141**, which stands as AAAA.
+10. It means we can leak the flag.
+11. To get the flag i made this script:
+
+```py
 
 ```
-
-7. It seems we need to create file `flag.txt` first and let's type `FLAG{}` for the text inside.
-8. Now let's run the file in gdb again.
-
-> RESULT
-
-![image](https://user-images.githubusercontent.com/70703371/194570111-94b37b00-6117-4c2a-bf6d-af1ea2727600.png)
-
-
-9. Since it asks us about format tag, i tried to input %x.
-
-> RESULT
-
-![image](https://user-images.githubusercontent.com/70703371/200119912-0d5c0715-4382-408b-9452-f2e92894fe5a.png)
-
-
-![image](https://user-images.githubusercontent.com/70703371/200119930-86dd15f1-4fd2-411c-9a80-739865718abf.png)
-
-
-10. Just a random decimal value.
-11. Then i tried to input 20 %x. -> %x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.
-
-> RESULT
-
-![image](https://user-images.githubusercontent.com/70703371/200120066-60f3b040-9b75-4b39-b017-972d82602a6d.png)
-
-
-12. Hmm noticed there's one 
-
