@@ -1,34 +1,16 @@
 # Positive challenge
-#### Write-up author: [jon-brandy](https://github.com/jon-brandy)
+> Write-up author: jon-brandy
 ## DESCRIPTION:
 I made sure that you couldn't get a negative value, I also forced only positive numbers even if you give negative.
 
-`nc rivit.dev 10010`
-
-[FILE](https://github.com/Bread-Yolk/ctflearnwu/blob/f3dc1761659066a2e55f8df58f36dc441b5ee20c/Assets/Binex/Positive%20challenge/task.tar.gz)
+nc rivit.dev 10010
 
 ## HINT:
 - NONE
 ## STEPS:
-1. First, download the given file.
-2. Next, extract it.
+1. First, download the source code given.
 
-> RESULT
-
-![image](https://user-images.githubusercontent.com/70703371/194739676-d6b736ba-47a8-492e-8520-b18ce5be01cd.png)
-
-
-3. Let's run the netcat first.
-
-> RESULT
-
-![image](https://user-images.githubusercontent.com/70703371/194739710-b34368e0-74a0-401a-bae4-2dbd32f4b4fd.png)
-
-
-4. Hmm.. We can't add negative value here.
-5. Let's analyze the code then.
-
-> TASK.C
+> THE SOURCE CODE
 
 ```c
 #include <stdlib.h>
@@ -63,12 +45,19 @@ int main(){
 
 ```
 
-6. **%hd** is new to me.
-7. So i did small research for that.
+2. Based from the code, we know the vuln is at the scanf operation where it takes **short integer** and stored it inside the **n** variable.
+3. Remembering the short integer can only store values within the range of -32,768 to 32,767.
+4. Hence to trigger the `system()` , let's enter the number of 32768.
 
-> SMALL RESEARCH - STACK OVERFLOW
+> RESULT
 
-![image](https://user-images.githubusercontent.com/70703371/194739757-cf5c1489-52e3-4f10-9298-858f9752929d.png)
+![image](https://user-images.githubusercontent.com/70703371/221827691-909d6965-a541-4cac-9c7f-be8e71ff52c8.png)
 
 
-8. 
+5. Got the flag!
+
+## FLAG
+
+```
+CTFlearn{n0t_s0_p0s1t1v3_4t_4ll}
+```
