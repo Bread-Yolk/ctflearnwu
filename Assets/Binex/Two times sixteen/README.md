@@ -11,7 +11,7 @@ nc rivit.dev 10000
 1. After unzipping the file, we got 2 files -> binary and it's source code.
 2. First, check the binary type and it's protections.
 
-> 64 bit, not stripped
+> 32 bit, not stripped
 
 ![image](https://user-images.githubusercontent.com/70703371/222120384-206e6d8a-e9f3-4f00-bbbd-0274e24899a4.png)
 
@@ -89,16 +89,21 @@ void vuln(){
 }
 ```
 
-5. Hence, we can control the **RIP** and passing arguments to the **print_flag** function. 
+5. Hence, we can control the **EIP** and passing arguments to the **print_flag** function. 
 6. Analyzing the **print_flag** function, it seems we need to pass `-1337` as the first argument, then `0xC0FEE` as the second argument.
-7. Let's get the **RIP** offset before crafting the exploit.
+7. Let's get the **EIP** offset before crafting the exploit.
+8. But we got into a problem:
 
-> Utilized the leaked RSP value -> got 40 bytes as the offset
-
-![image](https://user-images.githubusercontent.com/70703371/222122233-23d0d443-74a5-47b1-a8d3-75cae4943816.png)'
+![image](https://user-images.githubusercontent.com/70703371/222129007-0926e297-7f2f-427b-9882-31c778875637.png)
 
 
-8. Remembering it's in 64 bit, hence we need **pop rdi** and **pop rsi** for passing the 1st arg & the 2nd arg.
+9. Confused, my linux says there's no file or directory named `task`.
+10. If i compiled it using my linux, the executeable file made are in 64 bit, hence we won't get the flag.
+11. I tried `-m32`, but gave me error.
+12. So let's craft the script for the exploit and get the **EIP** offset.
 
-> pop rdi -> 
+> THE SCRIPT
+
+
+
 
