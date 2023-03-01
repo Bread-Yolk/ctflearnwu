@@ -93,4 +93,12 @@ void vuln(){
 6. Analyzing the **print_flag** function, it seems we need to pass `-1337` as the first argument, then `0xC0FEE` as the second argument.
 7. Let's get the **RIP** offset before crafting the exploit.
 
-> RESULT -> 
+> Utilized the leaked RSP value -> got 40 bytes as the offset
+
+![image](https://user-images.githubusercontent.com/70703371/222122233-23d0d443-74a5-47b1-a8d3-75cae4943816.png)'
+
+
+8. Remembering it's in 64 bit, hence we need **pop rdi** and **pop rsi** for passing the 1st arg & the 2nd arg.
+
+> pop rdi -> 
+
