@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/Bread-Yolk/ctflearnwu/blob/8b1a3d657e4735de70b1cd690466468db1a41ae2/Assets/CTFLEARN.png" width="950" height="250">
+<img src="https://github.com/Bread-Yolk/ctflearnwu/blob/8b1a3d657e4735de70b1cd690466468db1a41ae2/Assets/CTFLEARN.png" width="950" height="230">
 </p>
 
 
