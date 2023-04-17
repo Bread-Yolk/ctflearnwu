@@ -41,6 +41,8 @@
 |27. |[Naughty Cat](https://github.com/Bread-Yolk/ctflearnwu/blob/6adc9ab23d2761205678b1ef7b1c8b0215498ea2/Assets/Forensic/Naughty%20Cat/README.md)|f0r3n51cs_ma5t3r|
 |28. |[MountainMan](https://github.com/Bread-Yolk/ctflearnwu/blob/2c2269e8261495d9ec423dae294c6abf259ce257/Assets/Forensic/MountainMan/README.md)|CTFlearn{Ubuntu_r0ck5}|
 |29. |[Smiling ASCII](https://github.com/Bread-Yolk/ctflearnwu/blob/beb04f6179d46cf292c88ab7c2b6f60accf7bb85/Assets/Forensic/Smiling%20ASCII/README.md)|CTFlearn{ascii_pixel_flag}|
+|30. |[Corrupted File](https://github.com/Bread-Yolk/ctflearnwu/blob/beef2b59df90ee3e5b35a63c451d90d1738e002a/Assets/Forensic/Corrupted%20File/README.md)|flag{g1f_or_j1f}|
+
 
 </details>
 
