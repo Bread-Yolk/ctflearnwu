@@ -64,6 +64,8 @@
 |7. |[Leak me](https://github.com/Bread-Yolk/ctflearnwu/blob/b8c57f20798fabced33b791ace4087a73e01454b/Assets/Binex/Leak%20me/README.md)|CTFlearn{1_l1k3_f0rm4t_t4g5_t00}|
 |8. |[Positive challenge](https://github.com/Bread-Yolk/ctflearnwu/blob/c36be538866b63127f87767d0bec78d45e9f03e3/Assets/Binex/Positive%20challenge/README.md)|CTFlearn{n0t_s0_p0s1t1v3_4t_4ll}|
 |9. |[Domain name resolver](https://github.com/Bread-Yolk/ctflearnwu/blob/f4cedb58d87ef5dae6ec9040e06fa3a2c72343b0/Assets/Binex/Domain%20name%20resolver/README.md)|CTFlearn{1s_c0mm4nd_1nj3ct10n_4_th1ng?}|
+|10. |[Readme](https://github.com/Bread-Yolk/ctflearnwu/blob/main/Assets/Binex/Readme/README.md)|CTFlearn{ju57_4n_4rb17r4ry_r34d}|
+
 
 </details>
 
