@@ -156,4 +156,25 @@ int main() {
 ![image](https://github.com/Bread-Yolk/ctflearnwu/assets/70703371/9985029d-2ea7-4bc8-9de9-3085a2f5b9f9)
 
 
+12. It's all because there's a vulnerable optiTon at number 4 and 5, remembering if we choose to free chunk stored in `curr` it shall set to NULL too (which is secure). But we can stored it first before freed to another struct named `save` which has the same member as `curr` struct, afterwards recover the same pointer.
+13. Anyway things to note here, in order **Use-After-Free** to succeed, at the 3rd option we need to input the same size as the 1st option (which is 48 bytes). This would make malloc reuse the released chunk (before).
+
+> PROOF
+
+Let's run option 1 then input 8 chars. Here's the result.
+
+![image](https://github.com/Bread-Yolk/ctflearnwu/assets/70703371/97715599-89ce-47c2-a265-10eae477bb59)
+
+
+Noticed the metadata is 0x40 which indicates it has 64 size-field. It mallocs 40 (based from ghidra).
+Now let's store it to save by run option 4, then free it and run option 3 again and enters the same size-field as curr (40).
+
+![image](https://github.com/Bread-Yolk/ctflearnwu/assets/70703371/8fda7c67-f503-4df0-a9ec-65b7a00d6ae5)
+
+
+As you can see, it overlaps our previous chunk. Let's do another POC if we input smaller size, malloc shoud allocate below it.
+
+![image](https://github.com/Bread-Yolk/ctflearnwu/assets/70703371/953a6b18-050c-4f29-9a42-f2267cd2dd63)
+
+
 
