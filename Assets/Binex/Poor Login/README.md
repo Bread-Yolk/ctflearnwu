@@ -183,13 +183,14 @@ As you can see, it overlaps our previous chunk. Let's do another POC if we input
 14. Great! It's proven now. The problem now is how to trigger `curr->admin != 0`??
 15. No need to worry, if we already done the previous step, `curr->admin` shall set to other than 0.
 16. Hence we just need to choose option 5 then option 3 to get the flag.
+17. To summarize it, the flow is option **1 - 4 - 2 - 3 - 5 - 3**.
 
 > RESULT
 
 ![image](https://github.com/Bread-Yolk/ctflearnwu/assets/70703371/5ff0aa66-3ee6-416c-8db0-e20d7101a16a)
 
 
-17. Awesome! Here's the full script.
+18. Awesome! Here's the full script.
 
 > SCRIPT
 
@@ -250,7 +251,7 @@ sh.interactive()
 ![image](https://github.com/Bread-Yolk/ctflearnwu/assets/70703371/c6204a4a-334f-49f2-8e09-cab947a6afe2)
 
 
-18. Got the flag!
+19. Got the flag!
 
 ## FLAG
 
