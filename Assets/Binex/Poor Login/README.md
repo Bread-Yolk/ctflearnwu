@@ -23,5 +23,137 @@ login: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically link
 
 2. We're given the source code, but somehow for me, I still need to decompile it to understand more about how bytes allocated on the heap and what computer reads as.
 3. Reviewing the source code, the vuln is quite straight-forward, it's **Use-After-Free**.
-4. We can see that there's 5 menu we can use here:
+4. We can see that there's 5 option we can use here.
+
+> THE SOURCE CODE
+
+```c
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+
+int menu() {
+  printf("*** WINBLOWS LOGIN *********\n"
+      "1. Login into user.\n"
+      "2. Sign out.\n"
+      "3. Print flag.\n"
+      "4. Lock user.\n"
+      "5. Restore user.\n"
+      "> ");
+  
+  int resp = 0;
+  scanf("%d", &resp);
+  while (getchar() != '\n');
+  return resp;
+}
+
+struct creds {
+  void *padding;
+  char name[32];
+  int admin;
+};
+
+
+struct creds *curr;
+struct creds *save;
+
+char *fake_flag;
+
+int main() {
+  char buff[64];
+
+  setbuf(stdout, NULL);
+  setbuf(stdin, NULL);
+
+  while (1) {
+    switch (menu()) {
+      case 1:  // Login
+        curr = malloc(sizeof(*curr));
+
+        printf("Username: ");
+        fgets(curr->name, sizeof(curr->name), stdin);
+        strtok(curr->name, "\n");
+
+        curr->admin = 0;
+        break;
+      case 2: // Sign out
+        if (!curr) {
+          puts("You are not logged in!");
+          break;
+        }
+        free(curr);
+        curr = NULL;
+        puts("You have been successfully logged out.");
+        break;
+      case 3: // Print flag
+        if (curr && curr->admin) {
+          puts("Here's your flag:");
+          system("/bin/cat /flag.txt");
+        } else {
+          if (!fake_flag) {
+            puts("You are not admin. Would you like to create a new flag instead?");
+            fgets(buff, sizeof(buff), stdin);
+            fake_flag = strdup(buff);
+          }
+          printf("Here's your flag: %s", fake_flag);
+        }
+        break;
+      case 4: // Lock user
+        if (curr == NULL) {
+          puts("You are not logged in!");
+          break;
+        }
+
+        puts("User has been locked now.");
+        save = curr;
+        break;
+      case 5: // Restore user
+        if (curr != NULL) {
+          puts("You are already logged. Sign out first!");
+        } else if (save == NULL) {
+          puts("No user is currently locked!");
+        } else {
+          printf("Welcome back, %s!\n", save->name);
+          curr = save;
+          save = NULL;
+        }
+        break;
+      default:
+        puts("Invalid choice");
+    }
+  }
+}
+```
+
+5. The 1st option it allocates `*curr` onto the heap with a size-field of 48.
+
+![image](https://github.com/Bread-Yolk/ctflearnwu/assets/70703371/a486ee80-86eb-4f51-8e2b-f15083ba9f72)
+
+
+6. Then we prompted to input a username which shall stored in `curr->name`.
+
+![image](https://github.com/Bread-Yolk/ctflearnwu/assets/70703371/3d718cca-9db1-4fa7-99f7-2901c8089c29)
+
+
+7. The 2nd option, is free `curr` and set it to NULL. 
+
+![image](https://github.com/Bread-Yolk/ctflearnwu/assets/70703371/036e8456-1805-4fbe-848d-32c3d1de5df3)
+
+
+8. The 3rd option checks whether `curr` is not null and `curr->admin` is not 0, then flag shall printed out. If those conditions not fulfilled, hence it asks us to input buffer, then a global variable named `fake_flag` shall allocated on the heap with the same size as our previous input.
+
+![image](https://github.com/Bread-Yolk/ctflearnwu/assets/70703371/54ed4d0b-09c5-4fa7-bf4c-b1fef9edd0f0)
+
+
+9. At this point, it's quite clear the vuln should be at the strdup() call.
+10. The 4th option, is to copy what stored in `curr` to `save`.
+
+![image](https://github.com/Bread-Yolk/ctflearnwu/assets/70703371/8e882d15-f183-409e-bbee-cb9be34411ae)
+
+
+11. The 5th option is to copy what's inside `save` to `curr`, then set `save` to NULL.
+
+![image](https://github.com/Bread-Yolk/ctflearnwu/assets/70703371/9985029d-2ea7-4bc8-9de9-3085a2f5b9f9)
+
+
 
