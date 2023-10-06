@@ -66,7 +66,7 @@
 |9. |[Domain name resolver](https://github.com/Bread-Yolk/ctflearnwu/blob/f4cedb58d87ef5dae6ec9040e06fa3a2c72343b0/Assets/Binex/Domain%20name%20resolver/README.md)|CTFlearn{1s_c0mm4nd_1nj3ct10n_4_th1ng?}|
 |10. |[Readme](https://github.com/Bread-Yolk/ctflearnwu/blob/main/Assets/Binex/Readme/README.md)|CTFlearn{ju57_4n_4rb17r4ry_r34d}|
 |11. |[Cookies](https://github.com/Bread-Yolk/ctflearnwu/blob/main/Assets/Binex/Cookies/README.md)|CTFlearn{d0_y0u_kn0w_why_s74ck_c00ki3_h4s_4_nu11_by73_1n_17?}|
-|12. |[Cookies](https://github.com/Bread-Yolk/ctflearnwu/blob/main/Assets/Binex/Cookies/README.md)||
+|12. |[Runner](https://github.com/Bread-Yolk/ctflearnwu/blob/main/Assets/Binex/Runner/README.md)|CTFlearn{n0t_s0_st4nd4rd_sh3llc0d3}|
 </details>
 
 
