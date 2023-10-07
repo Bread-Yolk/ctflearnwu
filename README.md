@@ -43,6 +43,8 @@
 |29. |[Smiling ASCII](https://github.com/Bread-Yolk/ctflearnwu/blob/beb04f6179d46cf292c88ab7c2b6f60accf7bb85/Assets/Forensic/Smiling%20ASCII/README.md)|CTFlearn{ascii_pixel_flag}|
 |30. |[Corrupted File](https://github.com/Bread-Yolk/ctflearnwu/blob/beef2b59df90ee3e5b35a63c451d90d1738e002a/Assets/Forensic/Corrupted%20File/README.md)|flag{g1f_or_j1f}|
 |31. |[Seeing is believing](https://github.com/Bread-Yolk/ctflearnwu/blob/5e5e7570d1afb4a6ef06c53a90d6ea684456fbb2/Assets/Forensic/Seeing%20is%20believing/README.md)|the_flag_is{A_sP3c7r0grAm?!}|
+|32. |[Music To My Ears](https://github.com/Bread-Yolk/ctflearnwu/blob/main/Assets/Forensic/Music%20To%20My%20Ears/README.md)|1_c4n_f1x_it|
+
 
 
 </details>
