@@ -46,7 +46,7 @@
 |32. |[Music To My Ears](https://github.com/Bread-Yolk/ctflearnwu/blob/main/Assets/Forensic/Music%20To%20My%20Ears/README.md)|1_c4n_f1x_it|
 |33. |[Brute Force is Fun!](https://github.com/Bread-Yolk/ctflearnwu/blob/main/Assets/Forensic/Brute%20Force%20is%20Fun!/README.md)|FLAG{may_the_brute_force_be_with_you}|
 |34. |[Noise?](https://github.com/Bread-Yolk/ctflearnwu/blob/main/Assets/Forensic/Noise%3F/README.md)|flag{n0t_n0ise_4ft3r_4ll}|
-
+|35. |[Phone](https://github.com/Bread-Yolk/ctflearnwu/blob/main/Assets/Forensic/Phone/README.md)|CTFlearn{DTMF_1s_y0ur_fr13nd}|
 
 </details>
 
