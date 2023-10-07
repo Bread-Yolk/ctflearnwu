@@ -38,6 +38,10 @@ Pretty sure that this is just a bunch of noise... or is it? Look at this file cl
 ![image](https://github.com/Bread-Yolk/ctflearnwu/assets/70703371/40b3cac8-564a-41a8-90f5-38f29fd61af1)
 
 
+## ALTERNATE SOLVES
+
+1. You can use zsteg command --> `zsteg -E b8,r,lsb,xy noise.png > alt.png`.
+
 ## FLAG
 
 ```
