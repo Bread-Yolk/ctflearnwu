@@ -28,9 +28,18 @@ Pretty sure that this is just a bunch of noise... or is it? Look at this file cl
 
 
 
-4. At glance nothing's different from the extracted png file but running zsteg again to this image file resulting to another embedded image data.
+4. At glance nothing's different from the extracted png file other than the size of it. But running zsteg again to this image file resulting to another embedded image data.
 
 ![image](https://github.com/Bread-Yolk/ctflearnwu/assets/70703371/9511f2c7-b043-4392-903d-58a0e1a33c2e)
 
 
-5. Interesting! Long stort short, I did the same thing over and over again.
+5. Interesting! Long stort short, I did the same thing over and over again and found the flag at the 14th time.
+
+![image](https://github.com/Bread-Yolk/ctflearnwu/assets/70703371/40b3cac8-564a-41a8-90f5-38f29fd61af1)
+
+
+## FLAG
+
+```
+flag{n0t_n0ise_4ft3r_4ll}
+```
