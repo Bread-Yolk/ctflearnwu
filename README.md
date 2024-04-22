@@ -71,6 +71,7 @@
 |11. |[Cookies](https://github.com/Bread-Yolk/ctflearnwu/blob/main/Assets/Binex/Cookies/README.md)|CTFlearn{d0_y0u_kn0w_why_s74ck_c00ki3_h4s_4_nu11_by73_1n_17?}|
 |12. |[Runner](https://github.com/Bread-Yolk/ctflearnwu/blob/main/Assets/Binex/Runner/README.md)|CTFlearn{n0t_s0_st4nd4rd_sh3llc0d3}|
 |13. |[Poor Login](https://github.com/Bread-Yolk/ctflearnwu/blob/main/Assets/Binex/Poor%20Login/README.md)|CTFlearn{I_sh0uldve_done_a_ref_counter!!_:PPPPP}|
+|14. |[Hook](https://github.com/Bread-Yolk/ctflearnwu/blob/main/Assets/Binex/Hook/README.md)|CTFlearn{l3ts_hurry_t0_l0ve_l1bc_h00ks_th3y_l34v3_us_t00_s00n}|
 </details>
 
 
